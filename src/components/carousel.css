@@ -1,0 +1,115 @@
+.carousel {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__items__container {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel__item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black-color);
+  color: var(--text-color);
+  padding: 10rem;
+  font-size: 1.5rem;
+}
+
+.carousel__item .quote {
+  color: var(--span-one-color);
+  font-size: 3rem;
+}
+
+.carousel__item .quote__pink {
+  color: var(--span-two-color);
+  font-size: 3rem;
+}
+
+.text,
+.text__pink {
+  font-weight: 700;
+}
+.text span {
+  color: var(--span-one-color);
+}
+
+.text__pink span {
+  color: var(--span-two-color);
+  font-weight: 700;
+}
+
+.icons__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0 2rem 0;
+}
+.icons__box .face {
+  font-size: 4rem;
+  color: var(--black-color);
+}
+.icons__box .cake {
+  font-size: 4rem;
+  color: var(--black-color);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.icons__box p {
+  font-size: 10px;
+  font-style: normal;
+}
+
+.icons__box .text__one {
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 5rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: fixed;
+  bottom: 0;
+}
+
+.navigation svg.btn {
+  color: var(--gray-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.navigation p {
+  width: fit-content;
+  padding: 0.5rem;
+  color: var(--gray-color);
+  user-select: none;
+  font-size: 0.8rem;
+}
+
+.active__bar {
+  border: 2px solid var(--gray-color);
+  width: 100vw;
+  color: var(--text-color);
+}
