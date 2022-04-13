@@ -10,10 +10,14 @@ import {
 } from "react-icons/md";
 import { CgMenuCake } from "react-icons/cg";
 
-function App({ totalItems }) {
+function App({ setCurrentIndex, children, currentIndex }) {
   return (
     <div className="app">
-      <Carousel totalItems={totalItems}>
+      <Carousel
+        setCurrentIndex={setCurrentIndex}
+        currentIndex={currentIndex}
+        children={children}
+      >
         <CarouselItem>
           <MdOutlineFormatQuote className="quote" />
           <p className="text">
@@ -28,6 +32,7 @@ function App({ totalItems }) {
             <p>Karma Guru @ Face co™</p>
           </div>
         </CarouselItem>
+
         <CarouselItem>
           <MdOutlineFormatQuote className="quote__pink" />
           <p className="text__pink">
