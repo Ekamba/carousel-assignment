@@ -10,10 +10,10 @@ import {
 } from "react-icons/md";
 import { CgMenuCake } from "react-icons/cg";
 
-function App() {
+function App({ totalItems }) {
   return (
     <div className="app">
-      <Carousel>
+      <Carousel totalItems={totalItems}>
         <CarouselItem>
           <MdOutlineFormatQuote className="quote" />
           <p className="text">

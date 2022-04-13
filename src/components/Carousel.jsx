@@ -37,7 +37,7 @@ const Carousel = ({ children }) => {
           className="btn"
           onClick={() => navigationHandler(currentIndex - 1)}
         />
-        <p onClick={(index) => navigationHandler(index)}>
+        <p className="item__count">
           {currentIndex + 1} of {totalItems}
         </p>
         <MdOutlineChevronRight
