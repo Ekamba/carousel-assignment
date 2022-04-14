@@ -27,15 +27,8 @@ const Carousel = ({ children }) => {
         {React.Children.map(children, (child, index) => {
           return React.cloneElement(child, { width: "100%" });
         })}
-        <div className="container-bars">
-          {Array.from(children).map((child, index) => (
-            <div
-              key={index}
-              className={index === currentIndex ? "bar active" : "bar"}
-            ></div>
-          ))}
-        </div>
       </div>
+
       <div className="navigation" style={{ transition: "translateX(-0%)" }}>
         <a href="one">
           <MdHome className="btn" />
@@ -47,6 +40,14 @@ const Carousel = ({ children }) => {
         <p className="item__count">
           {currentIndex + 1} of {totalItems}
         </p>
+        <div className="container-bars">
+          {React.Children.map(children, (child, index) => (
+            <div
+              key={index}
+              className={index === currentIndex ? "bar active" : "bar"}
+            ></div>
+          ))}
+        </div>
         <MdOutlineChevronRight
           className="btn"
           onClick={() => navigationHandler(currentIndex + 1)}
