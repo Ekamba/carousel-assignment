@@ -3,52 +3,42 @@ import "./App.css";
 import Carousel from "./components/Carousel";
 import CarouselItem from "./components/CarouselItem";
 import { RiFilePaper2Line, RiReactjsFill } from "react-icons/ri";
-import {
-  MdOutlineFormatQuote,
-  MdOutlineTagFaces,
-  MdFitnessCenter,
-} from "react-icons/md";
-import { CgMenuCake } from "react-icons/cg";
+import { MdFitnessCenter } from "react-icons/md";
 
-function App({ setCurrentIndex, children, currentIndex }) {
+function App() {
   return (
     <div className="app">
-      <Carousel
-        setCurrentIndex={setCurrentIndex}
-        currentIndex={currentIndex}
-        children={children}
-      >
+      <Carousel>
         <CarouselItem>
-          <MdOutlineFormatQuote className="quote" />
+          <img src="/images/green_quote.png" alt="" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
           </p>
           <div className="icons__box">
             <div className="icon">
-              <MdOutlineTagFaces className="face" />
+              <img src="/images/mr_face.png" alt="" className="face" />
             </div>
             <p className="text__one">Mr. face</p>
             <p>Karma Guru @ Face co™</p>
           </div>
         </CarouselItem>
-
         <CarouselItem>
-          <MdOutlineFormatQuote className="quote__pink" />
+          <img src="/images/quote.png" alt="" />
           <p className="text__pink">
             An experience that makes us feel like we're <br /> covered in maple
             syrup - <span>It's a good thing</span>
           </p>
           <div className="icons__box">
             <div className="icon">
-              <CgMenuCake className="cake" />
+              <img src="/images/cake.png" alt="" className="cake" />
             </div>
             <p className="text__one">The whole team @</p>
             <p>The Pancake Collective™</p>
           </div>
         </CarouselItem>
         <CarouselItem>
-          <MdOutlineFormatQuote className="quote" />
+          <img src="/images/green_quote.png" alt="" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
@@ -62,7 +52,7 @@ function App({ setCurrentIndex, children, currentIndex }) {
           </div>
         </CarouselItem>
         <CarouselItem>
-          <MdOutlineFormatQuote className="quote" />
+          <img src="/images/green_quote.png" alt="" />
           <p className="text">
             Hooks are a new addition in React 16.8.
             <span>They let you use state and other React features</span>, <br />
@@ -77,7 +67,7 @@ function App({ setCurrentIndex, children, currentIndex }) {
           </div>
         </CarouselItem>
         <CarouselItem>
-          <MdOutlineFormatQuote className="quote" />
+          <img src="/images/green_quote.png" alt="" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
