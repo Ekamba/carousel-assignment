@@ -109,19 +109,19 @@
   font-weight: 100;
 }
 
-.container-bars {
+.container__bars {
+  display: flex;
+  justify-content: center;
   position: absolute;
   width: 100%;
-  margin-top: -5rem;
   padding: 0 10%;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
 }
 .bar {
   width: 15rem;
   height: 4px;
-  margin: -3rem 1.5px;
+  margin: 22rem 0.5rem 0 0;
   background: var(--bar-color);
 }
 .bar.active {

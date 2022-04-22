@@ -10,35 +10,35 @@ function App() {
     <div className="app">
       <Carousel>
         <CarouselItem>
-          <img src="/images/green_quote.png" alt="" />
+          <img src="/images/green_quote.png" alt="quote/png" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
           </p>
           <div className="icons__box">
             <div className="icon">
-              <img src="/images/mr_face.png" alt="" className="face" />
+              <img src="/images/mr_face.png" alt="face/png" className="face" />
             </div>
             <p className="text__one">Mr. face</p>
             <p>Karma Guru @ Face co™</p>
           </div>
         </CarouselItem>
         <CarouselItem>
-          <img src="/images/quote.png" alt="" />
+          <img src="/images/quote.png" alt="quote/png" />
           <p className="text__pink">
             An experience that makes us feel like we're <br /> covered in maple
             syrup - <span>It's a good thing</span>
           </p>
           <div className="icons__box">
             <div className="icon">
-              <img src="/images/cake.png" alt="" className="cake" />
+              <img src="/images/cake.png" alt="cake/png" className="cake" />
             </div>
             <p className="text__one">The whole team @</p>
             <p>The Pancake Collective™</p>
           </div>
         </CarouselItem>
         <CarouselItem>
-          <img src="/images/green_quote.png" alt="" />
+          <img src="/images/green_quote.png" alt="quote/png" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
@@ -52,7 +52,7 @@ function App() {
           </div>
         </CarouselItem>
         <CarouselItem>
-          <img src="/images/green_quote.png" alt="" />
+          <img src="/images/green_quote.png" alt="quote/png" />
           <p className="text">
             Hooks are a new addition in React 16.8.
             <span>They let you use state and other React features</span>, <br />
@@ -67,7 +67,7 @@ function App() {
           </div>
         </CarouselItem>
         <CarouselItem>
-          <img src="/images/green_quote.png" alt="" />
+          <img src="/images/green_quote.png" alt="quote/png" />
           <p className="text">
             This piece of software is <span>the shit</span>, <br />I have never
             tried anything like it.
