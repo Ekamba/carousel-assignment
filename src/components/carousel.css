@@ -22,19 +22,20 @@
   font-size: 1.5rem;
 }
 
-.carousel__item .quote {
+/* .carousel__item .quote {
   color: var(--span-one-color);
   font-size: 3rem;
-}
+} */
 
-.carousel__item .quote__pink {
+/* .carousel__item .quote__pink {
   color: var(--span-two-color);
   font-size: 3rem;
-}
+} */
 
 .text,
 .text__pink {
   font-weight: 700;
+  margin-top: 1.5rem;
 }
 .text span {
   color: var(--span-one-color);
